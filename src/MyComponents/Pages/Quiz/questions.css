@@ -1,0 +1,86 @@
+.question{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* color: black !important; */
+}
+.questionStatement{
+    width: 95%;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 4px solid rgba(128, 128, 128, 0.719);
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.options{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+.singleOption{
+    width: 45%;
+    height: 56px;
+    padding: 15px 20px;
+    margin: 10px;
+    box-shadow: 0 0 1px black;
+}
+.select{
+    background-color: rgb(7, 207, 0);
+    color: white;
+    box-shadow: 0 0 1px black;
+}
+.wrong{
+    background-color: rgb(233, 0, 0);
+    color: white;
+    box-shadow: 0 0 1px black;
+
+}
+.controls{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.cq{
+    color: black;
+}
+@media only screen and (max-width:400px) {
+.question{
+    width: 102%;
+}   
+.questionStatement{
+    overflow: scroll;
+    height: 475px;
+}
+.singleOption{
+    width: 94%;
+}
+.controls{
+    margin-bottom: -30px;
+    width: 92.5%;
+}
+.Qbtn{
+    margin-left: 8px !important;
+}
+.qNo{
+    margin-top: -7px;
+    margin-bottom: -8px;
+}
+.cq{
+    margin-top: 48px;
+    margin-bottom: -25px;
+}
+.options{
+    margin: 28px;
+    flex: 0 0;
+}
+}
+

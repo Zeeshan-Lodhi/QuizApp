@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lobster&family=Teko:wght@300&display=swap');
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
+.App{
+    margin: 6px;
+    border: 8px solid gray;
+    border-radius: 5px;
+    background-image: url('./MyComponents/Pages/Home/backg1.jpg');
+    /* This is for responveiness */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 89.5vh;
+}
+@media only screen and (max-width:400px) {
+    .App{
+        /* overflow: hidden; */
+        background-size: 120% 100%;
+    }
+    .App{
+    height: 90vh;
+
+    }
+}

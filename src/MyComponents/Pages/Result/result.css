@@ -1,0 +1,15 @@
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 65vh;
+    text-align: center;
+}
+.finslScore{
+    font-size: 28px;
+    font-weight: bold;
+}
+.Rbtn{
+    font-size: 18px !important;
+    font-weight: bold !important;
+}

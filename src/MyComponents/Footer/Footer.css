@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lobster&family=Teko:wght@300&display=swap');
+
+.footer{
+    padding: 8px;
+    margin: 2px;
+    width: 99%;
+    margin-left: 6px;
+    margin-bottom: -2px;
+    background-color: #143a4c;
+    display: flex;
+    justify-content: center;
+}
+.iconn{
+    color: rgba(0, 0, 0, 0.829);
+    padding: 6px;
+    font-size: 30px;
+    
+    color: rgb(255, 255, 255);
+}
+.iconn:hover{
+    cursor: pointer;
+    color:white;
+    border-bottom: 2px solid white;
+    
+}
+.footerTitle{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive !important;
+    color: white !important;
+}
+
+@media only screen and (max-width:400px) {
+.footer{
+    margin-top: 2px  !important;
+    width: 96.5%;
+    margin-left: 6px;
+}
+}
